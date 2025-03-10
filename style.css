@@ -1,15 +1,23 @@
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: #f4f4f4;
+    color: #333;
 }
 
+/* Encabezado */
 header {
-    background: #333;
+    background: url('images/banner.jpg') no-repeat center center/cover;
     color: white;
-    padding: 20px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
 }
 
 nav ul {
@@ -25,35 +33,47 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
+/* Sección de inicio */
 .hero {
-    background: url('images/banner.jpg') no-repeat center center/cover;
+    text-align: center;
+    background: url('images/travel_background.jpg') no-repeat center center/cover;
     padding: 100px 20px;
     color: white;
 }
 
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
 .boton {
-    background: #ff6600;
+    background-color: #ff9800;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: 1.2rem;
     border-radius: 5px;
+    display: inline-block;
 }
 
-.destinos-grid, .servicios-grid {
-    display: flex;
-    justify-content: center;
+/* Destinos */
+.destinos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 50px 10%;
 }
 
-.destino, .servicio {
+.destino {
     background: white;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .destino img {
@@ -61,25 +81,47 @@ nav ul li a {
     border-radius: 10px;
 }
 
-#contacto form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 0 auto;
-}
-
-#contacto input, #contacto textarea {
+.destino h3 {
     margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+    color: #ff5722;
 }
 
-button {
-    background: #ff6600;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+/* Testimonios */
+.testimonios-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 10%;
 }
+
+.testimonio {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.testimonio h4 {
+    margin-top: 10px;
+    color: #ff9800;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.redes-sociales a {
+    color: #ff9800;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
