@@ -3,29 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Tienda</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-        .producto { display: inline-block; width: 200px; margin: 10px; padding: 10px; border: 1px solid #ddd; }
-        img { width: 100%; }
-    </style>
+    <title>Blancalloses - Agencia de Viajes</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Bienvenido a Mi Tienda</h1>
-    
-    <div class="producto">
-        <img src="producto1.jpg" alt="Producto 1">
-        <h2>Producto 1</h2>
-        <p>$20.00</p>
-        <button>Comprar</button>
-    </div>
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Blancalloses</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="producto">
-        <img src="producto2.jpg" alt="Producto 2">
-        <h2>Producto 2</h2>
-        <p>$15.00</p>
-        <button>Comprar</button>
-    </div>
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="hero">
+        <h2>Descubre el mundo con nosotros</h2>
+        <p>Viajes inolvidables a los destinos más increíbles</p>
+        <a href="#destinos" class="boton">Ver Destinos</a>
+    </section>
 
+    <!-- SECCIÓN DESTINOS -->
+    <section id="destinos">
+        <h2>Destinos Populares</h2>
+        <div class="destinos-grid">
+            <div class="destino">
+                <img src="images/paris.jpg" alt="París">
+                <h3>París, Francia</h3>
+                <p>Disfruta de la ciudad del amor con nuestras ofertas exclusivas.</p>
+            </div>
+            <div class="destino">
+                <img src="images/bali.jpg" alt="Bali">
+                <h3>Bali, Indonesia</h3>
+                <p>Playas paradisíacas y cultura exótica te esperan.</p>
+            </div>
+            <div class="destino">
+                <img src="images/nyc.jpg" alt="Nueva York">
+                <h3>Nueva York, EE.UU.</h3>
+                <p>La ciudad que nunca duerme, lista para tu aventura.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS -->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-grid">
+            <div class="servicio">
+                <h3>Paquetes Todo Incluido</h3>
+                <p>Nos encargamos de todo: vuelos, hoteles y excursiones.</p>
+            </div>
+            <div class="servicio">
+                <h3>Viajes Personalizados</h3>
+                <p>Creamos experiencias únicas adaptadas a ti.</p>
+            </div>
+            <div class="servicio">
+                <h3>Asesoría de Viajes</h3>
+                <p>Te ayudamos a planear el viaje de tus sueños.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes dudas? Escríbenos y te ayudaremos a planear tu próximo viaje.</p>
+        <form id="formularioContacto">
+            <input type="text" id="nombre" placeholder="Tu Nombre" required>
+            <input type="email" id="email" placeholder="Tu Correo" required>
+            <textarea id="mensaje" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2025 Blancalloses - Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
