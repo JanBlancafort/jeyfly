@@ -6,6 +6,20 @@
     <title>Blancalloses - Agencia de Viajes</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+    <style>
+        .seccion {
+            cursor: pointer;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 5px;
+        }
+        .contenido {
+            display: none;
+            padding: 10px;
+            border-left: 3px solid #007BFF;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,73 +36,55 @@
         </nav>
     </header>
     
-    <section id="inicio">
+    <section id="inicio" class="seccion"> 
         <h2>Bienvenidos a Blancalloses</h2>
-        <p>Explora destinos increíbles con nuestra agencia de viajes.</p>
+        <div class="contenido">
+            <p>Explora destinos increíbles con nuestra agencia de viajes.</p>
+        </div>
     </section>
     
-    <section id="destinos">
+    <section id="destinos" class="seccion">
         <h2>Nuestros Destinos</h2>
-        <div class="destino"> <h3>París, Francia</h3> <p>Disfruta de la ciudad del amor y su icónica Torre Eiffel.</p></div>
-        <div class="destino"> <h3>Roma, Italia</h3> <p>Sumérgete en la historia con el Coliseo y el Vaticano.</p></div>
-        <div class="destino"> <h3>Bali, Indonesia</h3> <p>Relájate en playas paradisíacas y templos majestuosos.</p></div>
-        <div class="destino"> <h3>Tokio, Japón</h3> <p>Vive la fusión entre tradición y modernidad en una metrópoli vibrante.</p></div>
-        <div class="destino"> <h3>Nueva York, EE.UU.</h3> <p>Descubre la ciudad que nunca duerme con sus rascacielos impresionantes.</p></div>
-        <div class="destino"> <h3>Barcelona, España</h3> <p>Admira la arquitectura de Gaudí y disfruta del Mediterráneo.</p></div>
-        <div class="destino"> <h3>Sídney, Australia</h3> <p>Conoce la famosa Ópera de Sídney y sus impresionantes playas.</p></div>
-        <div class="destino"> <h3>Machu Picchu, Perú</h3> <p>Explora la mística ciudad inca en los Andes.</p></div>
-        <div class="destino"> <h3>Dubai, EAU</h3> <p>Experimenta el lujo y la modernidad en esta ciudad deslumbrante.</p></div>
-        <div class="destino"> <h3>Londres, Reino Unido</h3> <p>Recorre el Big Ben, el London Eye y el río Támesis.</p></div>
-        <div class="destino"> <h3>Bangkok, Tailandia</h3> <p>Visita templos dorados y prueba la mejor comida callejera.</p></div>
-        <div class="destino"> <h3>Praga, República Checa</h3> <p>Pasea por el Puente de Carlos y su casco histórico.</p></div>
-        <div class="destino"> <h3>Venecia, Italia</h3> <p>Disfruta de un romántico paseo en góndola por sus canales.</p></div>
-        <div class="destino"> <h3>Río de Janeiro, Brasil</h3> <p>Baila samba y maravíllate con el Cristo Redentor.</p></div>
-        <div class="destino"> <h3>Ámsterdam, Países Bajos</h3> <p>Explora sus canales, museos y ambiente vibrante.</p></div>
-        <div class="destino"> <h3>Cancún, México</h3> <p>Relájate en playas de arena blanca y aguas turquesas.</p></div>
-        <div class="destino"> <h3>Cape Town, Sudáfrica</h3> <p>Sube a la Montaña de la Mesa y explora viñedos locales.</p></div>
+        <div class="contenido">
+            <div class="destino"> <h3>París, Francia</h3> <p>Disfruta de la ciudad del amor y su icónica Torre Eiffel.</p></div>
+            <div class="destino"> <h3>Roma, Italia</h3> <p>Sumérgete en la historia con el Coliseo y el Vaticano.</p></div>
+            <div class="destino"> <h3>Bali, Indonesia</h3> <p>Relájate en playas paradisíacas y templos majestuosos.</p></div>
+            <div class="destino"> <h3>Tokio, Japón</h3> <p>Vive la fusión entre tradición y modernidad en una metrópoli vibrante.</p></div>
+            <div class="destino"> <h3>Nueva York, EE.UU.</h3> <p>Descubre la ciudad que nunca duerme con sus rascacielos impresionantes.</p></div>
+            <div class="destino"> <h3>Barcelona, España</h3> <p>Admira la arquitectura de Gaudí y disfruta del Mediterráneo.</p></div>
+            <div class="destino"> <h3>Sídney, Australia</h3> <p>Conoce la famosa Ópera de Sídney y sus impresionantes playas.</p></div>
+            <div class="destino"> <h3>Machu Picchu, Perú</h3> <p>Explora la mística ciudad inca en los Andes.</p></div>
+            <div class="destino"> <h3>Dubai, EAU</h3> <p>Experimenta el lujo y la modernidad en esta ciudad deslumbrante.</p></div>
+            <div class="destino"> <h3>Londres, Reino Unido</h3> <p>Recorre el Big Ben, el London Eye y el río Támesis.</p></div>
+            <div class="destino"> <h3>Bangkok, Tailandia</h3> <p>Visita templos dorados y prueba la mejor comida callejera.</p></div>
+            <div class="destino"> <h3>Praga, República Checa</h3> <p>Pasea por el Puente de Carlos y su casco histórico.</p></div>
+            <div class="destino"> <h3>Venecia, Italia</h3> <p>Disfruta de un romántico paseo en góndola por sus canales.</p></div>
+            <div class="destino"> <h3>Río de Janeiro, Brasil</h3> <p>Baila samba y maravíllate con el Cristo Redentor.</p></div>
+            <div class="destino"> <h3>Ámsterdam, Países Bajos</h3> <p>Explora sus canales, museos y ambiente vibrante.</p></div>
+            <div class="destino"> <h3>Cancún, México</h3> <p>Relájate en playas de arena blanca y aguas turquesas.</p></div>
+            <div class="destino"> <h3>Cape Town, Sudáfrica</h3> <p>Sube a la Montaña de la Mesa y explora viñedos locales.</p></div>
+        </div>
     </section>
     
-    <section id="testimonios">
+    <section id="testimonios" class="seccion">
         <h2>Testimonios de Nuestros Clientes</h2>
-        <p>"Blancalloses hizo que nuestro viaje fuera inolvidable!" - Laura M.</p>
-        <p>"Los mejores destinos con la mejor agencia!" - Carlos R.</p>
-    </section>
-    
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    
-    <section id="blog">
-        <h2>Blog de Viajes</h2>
-        <article>
-            <h3>5 Lugares Secretos en Europa</h3>
-            <p>Descubre destinos menos conocidos pero igual de impresionantes.</p>
-        </article>
-        <article>
-            <h3>Cómo Planear un Viaje Perfecto</h3>
-            <p>Consejos esenciales para organizar tu próxima aventura.</p>
-        </article>
-    </section>
-    
-    <section id="nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p>Blancalloses es una agencia de viajes con más de 20 años de experiencia, ofreciendo experiencias inolvidables en todo el mundo.</p>
+        <div class="contenido">
+            <p>"Blancalloses hizo que nuestro viaje fuera inolvidable!" - Laura M.</p>
+            <p>"Los mejores destinos con la mejor agencia!" - Carlos R.</p>
+        </div>
     </section>
     
     <footer>
         <p>&copy; 2025 Blancalloses - Agencia de Viajes</p>
     </footer>
+
+    <script>
+        document.querySelectorAll('.seccion').forEach(seccion => {
+            seccion.addEventListener('click', function() {
+                const contenido = this.querySelector('.contenido');
+                contenido.style.display = contenido.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
 </body>
 </html>
