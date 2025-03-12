@@ -1,16 +1,16 @@
 /* Estilos generales */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #e0f7fa;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #00796b;
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -20,47 +20,51 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-    background-color: #34495e;
+    background-color: #009688;
     padding: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
-    color: #ecf0f1;
+    color: #ffffff;
     margin: 0 15px;
     text-decoration: none;
     font-size: 1.1em;
     transition: color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav a:hover {
-    color: #1abc9c;
+    color: #b2dfdb;
 }
 
 .container {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #2c3e50;
+    color: #00796b;
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
     font-size: 1.1em;
     line-height: 1.8;
     color: #555;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Estilos para la sección de destinos */
@@ -71,7 +75,7 @@ p {
 }
 
 .destino {
-    background-color: #fff;
+    background-color: #ffffff;
     border: 1px solid #ddd;
     padding: 15px;
     margin: 10px 0;
@@ -94,19 +98,21 @@ p {
 }
 
 .destino h3 {
-    color: #2c3e50;
+    color: #00796b;
     font-size: 1.5em;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .destino p {
     font-size: 1em;
     color: #777;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Estilos para la sección de testimonios */
 .testimonios {
-    background-color: #ecf0f1;
+    background-color: #b2dfdb;
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
@@ -114,8 +120,9 @@ p {
 
 .testimonios p {
     font-style: italic;
-    color: #555;
+    color: #00796b;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Estilos para el formulario de contacto */
@@ -127,7 +134,8 @@ form {
 form label {
     font-size: 1.1em;
     margin-bottom: 5px;
-    color: #2c3e50;
+    color: #00796b;
+    font-family: 'Poppins', sans-serif;
 }
 
 form input, form textarea {
@@ -136,27 +144,29 @@ form input, form textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 1em;
+    font-family: 'Poppins', sans-serif;
 }
 
 form button {
     padding: 10px 20px;
-    background-color: #1abc9c;
-    color: #fff;
+    background-color: #00796b;
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     font-size: 1.1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form button:hover {
-    background-color: #16a085;
+    background-color: #004d40;
 }
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #00796b;
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
@@ -166,4 +176,5 @@ footer {
 footer p {
     margin: 0;
     font-size: 1em;
+    font-family: 'Poppins', sans-serif;
 }
