@@ -3,125 +3,90 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
     color: #333;
 }
 
 /* Encabezado */
 header {
-    background: url('images/banner.jpg') no-repeat center center/cover;
+    background: url('https://source.unsplash.com/1600x900/?travel') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 40px 20px;
-}
-
-header h1 {
-    font-size: 3rem;
-    margin: 0;
+    padding: 50px 0;
+    font-size: 24px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    padding: 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
-/* Sección de inicio */
-.hero {
-    text-align: center;
-    background: url('images/travel_background.jpg') no-repeat center center/cover;
-    padding: 100px 20px;
-    color: white;
+nav ul li a:hover {
+    color: #ffcc00;
 }
 
-.hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+/* Secciones */
+.seccion {
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
-.boton {
-    background-color: #ff9800;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    display: inline-block;
+.seccion:hover {
+    background-color: #f1f1f1;
 }
 
-/* Destinos */
-.destinos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 50px 10%;
+.contenido {
+    display: none;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
 }
 
 .destino {
-    background: white;
+    background: rgba(0, 123, 255, 0.1);
     padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    margin-bottom: 10px;
+    border-left: 5px solid #007BFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .destino img {
-    width: 100%;
-    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 .destino h3 {
-    margin: 10px 0;
-    color: #ff5722;
+    color: #007BFF;
 }
 
-/* Testimonios */
-.testimonios-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px 10%;
-}
-
-.testimonio {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-}
-
-.testimonio h4 {
-    margin-top: 10px;
-    color: #ff9800;
-}
-
-/* Pie de página */
+/* Footer */
 footer {
-    background: #333;
-    color: white;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 50px;
+    padding: 20px;
+    background: #007BFF;
+    color: white;
+    margin-top: 20px;
 }
-
-.redes-sociales a {
-    color: #ff9800;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-.redes-sociales a:hover {
-    text-decoration: underline;
