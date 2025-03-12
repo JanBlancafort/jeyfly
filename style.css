@@ -3,13 +3,13 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0f7fa;
+    background-color: #e0f7fa; /* Fondo azul claro */
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #00796b;
+    background-color: #00796b; /* Azul verdoso oscuro */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -24,7 +24,7 @@ header h1 {
 }
 
 nav {
-    background-color: #009688;
+    background-color: #009688; /* Azul verdoso */
     padding: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #b2dfdb;
+    color: #b2dfdb; /* Azul claro */
 }
 
 .container {
@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 h2 {
-    color: #00796b;
+    color: #00796b; /* Azul verdoso oscuro */
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
@@ -98,7 +98,7 @@ p {
 }
 
 .destino h3 {
-    color: #00796b;
+    color: #00796b; /* Azul verdoso oscuro */
     font-size: 1.5em;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -112,7 +112,7 @@ p {
 
 /* Estilos para la sección de testimonios */
 .testimonios {
-    background-color: #b2dfdb;
+    background-color: #b2dfdb; /* Azul claro */
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
@@ -120,7 +120,7 @@ p {
 
 .testimonios p {
     font-style: italic;
-    color: #00796b;
+    color: #00796b; /* Azul verdoso oscuro */
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -134,7 +134,7 @@ form {
 form label {
     font-size: 1.1em;
     margin-bottom: 5px;
-    color: #00796b;
+    color: #00796b; /* Azul verdoso oscuro */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -149,7 +149,7 @@ form input, form textarea {
 
 form button {
     padding: 10px 20px;
-    background-color: #00796b;
+    background-color: #00796b; /* Azul verdoso oscuro */
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -160,12 +160,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #004d40;
+    background-color: #004d40; /* Azul verdoso más oscuro */
 }
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #00796b;
+    background-color: #00796b; /* Azul verdoso oscuro */
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
